@@ -8,10 +8,10 @@ namespace ICT3101_Calculator.UnitTests
     public class UsingCalculatorDivisionsSteps
     {
         private Calculator _calculator;
-        private double _result;
+        private double _result;    
 
         public UsingCalculatorDivisionsSteps(Calculator c) {
-            _calculator = c;
+            _calculator = c;    
         }
 
         [When(@"I have entered ""(.*)"" and ""(.*)"" into the calculator and press divide")]
